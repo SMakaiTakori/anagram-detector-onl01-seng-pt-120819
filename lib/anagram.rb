@@ -7,7 +7,7 @@ class Anagram
   end  
   
   def match(anagrams)
-    
+    splitAnagrams = @anagrams.split("\n")
   
   end  
   
