@@ -7,7 +7,7 @@ class Anagram
   end  
   
   def match(words)
-    words.select do ||
+    words.collect  do ||
       
   
   end  
