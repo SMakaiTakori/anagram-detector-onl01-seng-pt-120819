@@ -6,9 +6,8 @@ class Anagram
     @word = word
   end  
   
-  def match(anagrams)
-    splitAnagrams = @anagrams.split("\n")
-      
+  def match(words)
+    
   
   end  
   
