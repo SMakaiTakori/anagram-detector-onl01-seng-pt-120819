@@ -10,12 +10,9 @@ class Anagram
     # iterate over the array of words that the .match method takes as an argument.
     words.select do |word|
       
-      @word.split("").sort == word.split("").sort
+    # compare each word of that array to the word that the Anagram class is initialized with.
+    @word.split("").sort == word.split("").sort
           
     end  
-  
-  end  
-  
-
-
+  end
 end  
